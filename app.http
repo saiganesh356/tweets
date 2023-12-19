@@ -1,0 +1,19 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "adam_richrd",
+  "password": "ric7",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+### API 2
+POST http://localhost:3000/login/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzAzMDA3NTA5fQ.ndCrsrqnjem-e-900Xb3Mje8qs2cNk7ut3eOcfdcw4k
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
